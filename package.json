@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "compress-images": "^2.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "gifsicle": "^5.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mozjpeg": "^7.1.1",
+    "pg": "^8.7.1",
+    "pngquant-bin": "^6.0.1",
+    "svgo": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
